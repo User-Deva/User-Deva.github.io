@@ -1,0 +1,712 @@
+
+> portfolio@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ○ Compiling / ...
+ ✓ Compiled / in 1704ms (475 modules)
+ GET / 200 in 1809ms
+ GET / 200 in 28ms
+ ✓ Compiled in 272ms (475 modules)
+ GET / 200 in 35ms
+ ✓ Compiled in 286ms (475 modules)
+ ✓ Compiled in 125ms (475 modules)
+ ✓ Compiled in 162ms (475 modules)
+ ✓ Compiled in 145ms (475 modules)
+ ✓ Compiled in 112ms (475 modules)
+ ✓ Compiled in 234ms (475 modules)
+ ✓ Compiled in 213ms (475 modules)
+ ✓ Compiled in 229ms (475 modules)
+ ✓ Compiled in 161ms (475 modules)
+ ✓ Compiled in 137ms (475 modules)
+ ✓ Compiled in 114ms (475 modules)
+ GET / 200 in 54ms
+ GET / 200 in 16ms
+ GET / 200 in 26ms
+ ⨯ ./components/World.tsx
+Error: 
+  [31mx[0m Legacy octal literals are not available when targeting ECMAScript 5 and higher
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:383:1]
+ [2m383[0m |     })
+ [2m384[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m385[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m386[0m |     harbor.position.set(88, 00.5, 160)
+     : [31;1m                            ^^[0m
+ [2m387[0m |     scene.add(harbor)
+ [2m388[0m |     // Yacht silhouettes
+ [2m389[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+     `----
+
+  [31mx[0m Legacy octal escape is not permitted in strict mode
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:383:1]
+ [2m383[0m |     })
+ [2m384[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m385[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m386[0m |     harbor.position.set(88, 00.5, 160)
+     : [31;1m                            ^^[0m
+ [2m387[0m |     scene.add(harbor)
+ [2m388[0m |     // Yacht silhouettes
+ [2m389[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+     `----
+
+  [31mx[0m Expected ',', got 'numeric literal (0.5, .5)'
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:383:1]
+ [2m383[0m |     })
+ [2m384[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m385[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m386[0m |     harbor.position.set(88, 00.5, 160)
+     : [31;1m                              ^^[0m
+ [2m387[0m |     scene.add(harbor)
+ [2m388[0m |     // Yacht silhouettes
+ [2m389[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/World.tsx
+./app/page.tsx
+ ⨯ ./components/World.tsx
+Error: 
+  [31mx[0m Legacy octal literals are not available when targeting ECMAScript 5 and higher
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:383:1]
+ [2m383[0m |     })
+ [2m384[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m385[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m386[0m |     harbor.position.set(88, 00.5, 160)
+     : [31;1m                            ^^[0m
+ [2m387[0m |     scene.add(harbor)
+ [2m388[0m |     // Yacht silhouettes
+ [2m389[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+     `----
+
+  [31mx[0m Legacy octal escape is not permitted in strict mode
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:383:1]
+ [2m383[0m |     })
+ [2m384[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m385[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m386[0m |     harbor.position.set(88, 00.5, 160)
+     : [31;1m                            ^^[0m
+ [2m387[0m |     scene.add(harbor)
+ [2m388[0m |     // Yacht silhouettes
+ [2m389[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+     `----
+
+  [31mx[0m Expected ',', got 'numeric literal (0.5, .5)'
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:383:1]
+ [2m383[0m |     })
+ [2m384[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m385[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m386[0m |     harbor.position.set(88, 00.5, 160)
+     : [31;1m                              ^^[0m
+ [2m387[0m |     scene.add(harbor)
+ [2m388[0m |     // Yacht silhouettes
+ [2m389[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/World.tsx
+./app/page.tsx
+ ○ Compiling /_error ...
+ GET / 500 in 2ms
+ GET / 500 in 21ms
+ ✓ Compiled /_not-found in 428ms (691 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /_next/static/webpack/d4f28c2e16cc2703.webpack.hot-update.json 404 in 446ms
+ GET / 200 in 16ms
+ GET / 200 in 62ms
+ ✓ Compiled in 341ms (702 modules)
+ GET / 200 in 55ms
+ ✓ Compiled in 214ms (702 modules)
+ ✓ Compiled in 165ms (702 modules)
+ ✓ Compiled in 168ms (702 modules)
+ ✓ Compiled in 272ms (702 modules)
+ GET / 200 in 59ms
+ ✓ Compiled in 212ms (702 modules)
+ GET / 200 in 33ms
+ GET / 200 in 30ms
+ ✓ Compiled in 451ms (708 modules)
+ GET / 200 in 39ms
+ ✓ Compiled in 241ms (708 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 61ms
+ GET / 200 in 19ms
+ ✓ Compiled in 258ms (708 modules)
+ ✓ Compiled in 181ms (708 modules)
+ ✓ Compiled in 127ms (708 modules)
+ ✓ Compiled in 126ms (708 modules)
+ ✓ Compiled in 127ms (708 modules)
+ ✓ Compiled in 116ms (708 modules)
+ ✓ Compiled in 112ms (708 modules)
+ ⨯ ./components/World.tsx
+Error: 
+  [31mx[0m the name `GLTFLoader` is defined multiple times
+   ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:1:1]
+ [2m1[0m | 'use client'
+ [2m2[0m | import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+   : [31;1m         ^^^^^|^^^^[0m
+   :               [31;1m`-- [31;1mprevious definition of `GLTFLoader` here[0m[0m
+ [2m3[0m | import { useEffect, useRef, useState, useCallback } from 'react'
+ [2m4[0m | import * as THREE from 'three'
+ [2m5[0m | import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+   : [33;1m         ^^^^^|^^^^[0m
+   :               [33;1m`-- [33;1m`GLTFLoader` redefined here[0m[0m
+ [2m6[0m | 
+ [2m7[0m | // ─── Portfolio content – edit this ───────────────────────────────────────────
+ [2m8[0m | const PORTFOLIO_BLOCKS = [
+   `----
+
+Import trace for requested module:
+./components/World.tsx
+./app/page.tsx
+ GET / 500 in 6ms
+ ✓ Compiled /_not-found in 357ms (697 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/d4f28c2e16cc2703.webpack.hot-update.json 404 in 353ms
+ GET / 200 in 16ms
+ ⨯ ./components/World.tsx
+Error: 
+  [31mx[0m the name `gltfLoader` is defined multiple times
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:159:1]
+ [2m159[0m |     // Async loads run after the procedural scene is built. If the component
+ [2m160[0m |     // unmounts mid-load, `mounted` lets the .then() bail out before adding
+ [2m161[0m |     // anything to a torn-down scene.
+ [2m162[0m |     const gltfLoader = new GLTFLoader()
+     : [31;1m          ^^^^^|^^^^[0m
+     :                [31;1m`-- [31;1mprevious definition of `gltfLoader` here[0m[0m
+ [2m163[0m |     let mounted = true
+ [2m164[0m | 
+ [2m165[0m |     type LoadOpts = {
+ [2m166[0m |       scale?: number
+ [2m167[0m |       rotY?: number
+ [2m168[0m |       yOffset?: number
+ [2m169[0m |       castShadow?: boolean
+ [2m170[0m |       receiveShadow?: boolean
+ [2m171[0m |     }
+ [2m172[0m |     const loadGLB = async (url: string, opts: LoadOpts = {}): Promise<THREE.Group | null> => {
+ [2m173[0m |       try {
+ [2m174[0m |         const gltf = await gltfLoader.loadAsync(url)
+ [2m175[0m |         if (!mounted) return null
+ [2m176[0m |         const group = gltf.scene
+ [2m177[0m |         const { scale = 1, rotY = 0, yOffset = 0, castShadow = true, receiveShadow = true } = opts
+ [2m178[0m |         group.scale.setScalar(scale)
+ [2m179[0m |         group.rotation.y = rotY
+ [2m180[0m |         group.position.y = yOffset
+ [2m181[0m |         group.traverse(o => {
+ [2m182[0m |           const m = o as THREE.Mesh
+ [2m183[0m |           if (m.isMesh) {
+ [2m184[0m |             m.castShadow = castShadow
+ [2m185[0m |             m.receiveShadow = receiveShadow
+ [2m186[0m |           }
+ [2m187[0m |         })
+ [2m188[0m |         return group
+ [2m189[0m |       } catch (err) {
+ [2m190[0m |         console.warn(`[World] failed to load GLB ${url}:`, err)
+ [2m191[0m |         return null
+ [2m192[0m |       }
+ [2m193[0m |     }
+ [2m194[0m | 
+ [2m195[0m |     // ── Scene (Monaco — bright Mediterranean afternoon) ──────────────────────
+ [2m196[0m |     const scene = new THREE.Scene()
+ [2m197[0m |     const SKY_COLOR = 0xb6dcf2
+ [2m198[0m |     scene.background = new THREE.Color(SKY_COLOR)
+ [2m199[0m |     scene.fog = new THREE.FogExp2(SKY_COLOR, 0.012)
+ [2m200[0m |     sceneRef.current = scene
+ [2m201[0m | 
+ [2m202[0m |     // ── Camera ────────────────────────────────────────────────────────────────
+ [2m203[0m |     const camera = new THREE.PerspectiveCamera(55, W / H, 0.1, 200)
+ [2m204[0m |     camera.position.set(0, 9, 12)
+ [2m205[0m |     cameraRef.current = camera
+ [2m206[0m | 
+ [2m207[0m |     // ── Lighting (sun + sky + bounce) ────────────────────────────────────────
+ [2m208[0m |     // Hemisphere = warm sun-tinted sky bouncing off pavement
+ [2m209[0m |     scene.add(new THREE.HemisphereLight(0xfff2d8, 0x5a5048, 0.55))
+ [2m210[0m |     // Soft ambient so shadow interiors aren't pure black
+ [2m211[0m |     scene.add(new THREE.AmbientLight(0xfff0d8, 0.25))
+ [2m212[0m | 
+ [2m213[0m |     const sun = new THREE.DirectionalLight(0xfff8e0, 2.4)
+ [2m214[0m |     sun.position.set(12, 20, 8)
+ [2m215[0m |     sun.castShadow = true
+ [2m216[0m |     sun.shadow.mapSize.set(2048, 2048)
+ [2m217[0m |     sun.shadow.camera.near = 0.5
+ [2m218[0m |     sun.shadow.camera.far = 80
+ [2m219[0m |     sun.shadow.camera.left = -22; sun.shadow.camera.right = 22
+ [2m220[0m |     sun.shadow.camera.bottom = -22; sun.shadow.camera.top = 22
+ [2m221[0m |     sun.shadow.bias = -0.0005
+ [2m222[0m |     scene.add(sun)
+ [2m223[0m | 
+ [2m224[0m |     // Sky-bounce fill from the opposite side
+ [2m225[0m |     const skyFill = new THREE.DirectionalLight(0x88aacc, 0.45)
+ [2m226[0m |     skyFill.position.set(-12, 8, -10)
+ [2m227[0m |     scene.add(skyFill)
+ [2m228[0m | 
+ [2m229[0m |     // Subtle warm rim on the car (kept minimal in daylight)
+ [2m230[0m |     const carLight = new THREE.PointLight(0xffe8c0, 0.35, 5)
+ [2m231[0m |     scene.add(carLight)
+ [2m232[0m | 
+ [2m233[0m |     // ── Ground (asphalt-grey base, harbor + grass added separately) ──────────
+ [2m234[0m |     const groundMat = new THREE.MeshStandardMaterial({
+ [2m235[0m |       color: 0x575961,
+ [2m236[0m |       roughness: 0.95,
+ [2m237[0m |       metalness: 0.05,
+ [2m238[0m |     })
+ [2m239[0m |     const ground = new THREE.Mesh(new THREE.PlaneGeometry(60, 60), groundMat)
+ [2m240[0m |     ground.rotation.x = -Math.PI / 2
+ [2m241[0m |     ground.receiveShadow = true
+ [2m242[0m |     scene.add(ground)
+ [2m243[0m | 
+ [2m244[0m |     // ── Monaco track ──────────────────────────────────────────────────────────
+ [2m245[0m |     const TRACK_POINTS_RAW: [number, number, number][] = [
+ [2m246[0m |       [0, 0, 0],      // Start/Finish
+ [2m247[0m |       [8, 0, -2],     // Sainte Devote entry
+ [2m248[0m |       [10, 0, -5],    // Sainte Devote apex
+ [2m249[0m |       [9, 0, -9],     // Beau Rivage climb
+ [2m250[0m |       [5, 0, -12],    // Massenet
+ [2m251[0m |       [0, 0, -13],    // Casino entry
+ [2m252[0m |       [-4, 0, -11],   // Casino exit
+ [2m253[0m |       [-7, 0, -8],    // Mirabeau
+ [2m254[0m |       [-9, 0, -4],    // Fairmont hairpin
+ [2m255[0m |       [-7, 0, 0],     // Portier
+ [2m256[0m |       [-5, 0, 4],     // Tunnel exit
+ [2m257[0m |       [-2, 0, 7],     // Chicane
+ [2m258[0m |       [2, 0, 7],      // Tabac
+ [2m259[0m |       [6, 0, 5],      // Swimming pool
+ [2m260[0m |       [8, 0, 2],      // Rascasse
+ [2m261[0m |       [5, 0, 0],      // Anthony Noghes
+ [2m262[0m |     ]
+ [2m263[0m |     const trackCurve = new THREE.CatmullRomCurve3(
+ [2m264[0m |       TRACK_POINTS_RAW.map(([x, y, z]) => new THREE.Vector3(x, y, z)),
+ [2m265[0m |       true,
+ [2m266[0m |       'catmullrom',
+ [2m267[0m |       0.5,
+ [2m268[0m |     )
+ [2m269[0m | 
+ [2m270[0m |     const ROAD_WIDTH = 4.2
+ [2m271[0m |     const TRACK_SAMPLES = 240
+ [2m272[0m |     const trackSamples = trackCurve.getSpacedPoints(TRACK_SAMPLES) // length = TRACK_SAMPLES + 1, last == first
+ [2m273[0m | 
+ [2m274[0m |     // Build flat road ribbon along curve
+ [2m275[0m |     const roadPositions: number[] = []
+ [2m276[0m |     const roadUVs: number[] = []
+ [2m277[0m |     const roadIndices: number[] = []
+ [2m278[0m |     const curbInnerPositions: number[] = []
+ [2m279[0m |     const curbOuterPositions: number[] = []
+ [2m280[0m |     const curbInnerIndices: number[] = []
+ [2m281[0m |     const curbOuterIndices: number[] = []
+ [2m282[0m |     const ROAD_Y = 0.02
+ [2m283[0m |     const CURB_Y = 0.04
+ [2m284[0m |     const CURB_W = 0.45
+ [2m285[0m | 
+ [2m286[0m |     for (let i = 0; i <= TRACK_SAMPLES; i++) {
+ [2m287[0m |       const p = trackSamples[i]
+ [2m288[0m |       const next = trackSamples[(i + 1) % (TRACK_SAMPLES + 1)]
+ [2m289[0m |       const tangent = next.clone().sub(p)
+ [2m290[0m |       if (tangent.length() < 1e-6) tangent.copy(trackSamples[(i - 1 + TRACK_SAMPLES) % TRACK_SAMPLES].clone().sub(p).negate())
+ [2m291[0m |       tangent.normalize()
+ [2m292[0m |       // Perpendicular in xz-plane (rotate 90° around +y)
+ [2m293[0m |       const perp = new THREE.Vector3(-tangent.z, 0, tangent.x)
+ [2m294[0m |       const halfW = ROAD_WIDTH / 2
+ [2m295[0m |       const left = p.clone().add(perp.clone().multiplyScalar(halfW))
+ [2m296[0m |       const right = p.clone().add(perp.clone().multiplyScalar(-halfW))
+ [2m297[0m |       roadPositions.push(left.x, ROAD_Y, left.z, right.x, ROAD_Y, right.z)
+ [2m298[0m |       roadUVs.push(0, i / TRACK_SAMPLES, 1, i / TRACK_SAMPLES)
+ [2m299[0m | 
+ [2m300[0m |       // Curb strips just outside both edges
+ [2m301[0m |       const leftOuter = p.clone().add(perp.clone().multiplyScalar(halfW + CURB_W))
+ [2m302[0m |       const rightOuter = p.clone().add(perp.clone().multiplyScalar(-(halfW + CURB_W)))
+ [2m303[0m |       curbInnerPositions.push(left.x, CURB_Y, left.z, leftOuter.x, CURB_Y, leftOuter.z)
+ [2m304[0m |       curbOuterPositions.push(right.x, CURB_Y, right.z, rightOuter.x, CURB_Y, rightOuter.z)
+ [2m305[0m |     }
+ [2m306[0m |     for (let i = 0; i < TRACK_SAMPLES; i++) {
+ [2m307[0m |       const a = i * 2, b = i * 2 + 1, c = (i + 1) * 2, d = (i + 1) * 2 + 1
+ [2m308[0m |       roadIndices.push(a, b, c, b, d, c)
+ [2m309[0m |       curbInnerIndices.push(a, b, c, b, d, c)
+ [2m310[0m |       curbOuterIndices.push(a, b, c, b, d, c)
+ [2m311[0m |     }
+ [2m312[0m | 
+ [2m313[0m |     const roadGeo = new THREE.BufferGeometry()
+ [2m314[0m |     roadGeo.setAttribute('position', new THREE.Float32BufferAttribute(roadPositions, 3))
+ [2m315[0m |     roadGeo.setAttribute('uv', new THREE.Float32BufferAttribute(roadUVs, 2))
+ [2m316[0m |     roadGeo.setIndex(roadIndices)
+ [2m317[0m |     roadGeo.computeVertexNormals()
+ [2m318[0m |     const roadMat = new THREE.MeshStandardMaterial({
+ [2m319[0m |       color: 0x3a3a42,
+ [2m320[0m |       roughness: 0.85,
+ [2m321[0m |       metalness: 0.05,
+ [2m322[0m |       side: THREE.DoubleSide,
+ [2m323[0m |     })
+ [2m324[0m |     const road = new THREE.Mesh(roadGeo, roadMat)
+ [2m325[0m |     road.receiveShadow = true
+ [2m326[0m |     scene.add(road)
+ [2m327[0m | 
+ [2m328[0m |     // Center stripe — thin yellow line at the road centerline
+ [2m329[0m |     const stripePoints: THREE.Vector3[] = []
+ [2m330[0m |     for (let i = 0; i <= TRACK_SAMPLES; i++) {
+ [2m331[0m |       const p = trackSamples[i]
+ [2m332[0m |       stripePoints.push(new THREE.Vector3(p.x, ROAD_Y + 0.003, p.z))
+ [2m333[0m |     }
+ [2m334[0m |     const stripeGeo = new THREE.BufferGeometry().setFromPoints(stripePoints)
+ [2m335[0m |     const stripeMat = new THREE.LineDashedMaterial({ color: 0xffd14a, dashSize: 0.6, gapSize: 0.6, transparent: true, opacity: 0.55 })
+ [2m336[0m |     const stripe = new THREE.Line(stripeGeo, stripeMat)
+ [2m337[0m |     stripe.computeLineDistances()
+ [2m338[0m |     scene.add(stripe)
+ [2m339[0m | 
+ [2m340[0m |     // Curbs (red/white alternating per segment via vertex colors)
+ [2m341[0m |     const buildCurb = (positions: number[], indices: number[]) => {
+ [2m342[0m |       const geo = new THREE.BufferGeometry()
+ [2m343[0m |       geo.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3))
+ [2m344[0m |       const colors = new Float32Array((positions.length / 3) * 3)
+ [2m345[0m |       for (let v = 0; v < positions.length / 3; v++) {
+ [2m346[0m |         const segment = Math.floor(v / 2)
+ [2m347[0m |         const isRed = (segment % 6) < 3
+ [2m348[0m |         colors[v * 3]     = isRed ? 0.85 : 0.95
+ [2m349[0m |         colors[v * 3 + 1] = isRed ? 0.10 : 0.95
+ [2m350[0m |         colors[v * 3 + 2] = isRed ? 0.10 : 0.95
+ [2m351[0m |       }
+ [2m352[0m |       geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3))
+ [2m353[0m |       geo.setIndex(indices)
+ [2m354[0m |       geo.computeVertexNormals()
+ [2m355[0m |       const mat = new THREE.MeshStandardMaterial({
+ [2m356[0m |         vertexColors: true,
+ [2m357[0m |         roughness: 0.6,
+ [2m358[0m |         metalness: 0.05,
+ [2m359[0m |         side: THREE.DoubleSide,
+ [2m360[0m |       })
+ [2m361[0m |       const mesh = new THREE.Mesh(geo, mat)
+ [2m362[0m |       scene.add(mesh)
+ [2m363[0m |     }
+ [2m364[0m |     buildCurb(curbInnerPositions, curbInnerIndices)
+ [2m365[0m |     buildCurb(curbOuterPositions, curbOuterIndices)
+ [2m366[0m | 
+ [2m367[0m |     // Start/finish line — black & white checker plate
+ [2m368[0m |     {
+ [2m369[0m |       const start = trackSamples[0]
+ [2m370[0m |       const next = trackSamples[1]
+ [2m371[0m |       const tan = next.clone().sub(start).normalize()
+ [2m372[0m |       const perp = new THREE.Vector3(-tan.z, 0, tan.x)
+ [2m373[0m |       const checkerCanvas = document.createElement('canvas')
+ [2m374[0m |       checkerCanvas.width = 128; checkerCanvas.height = 32
+ [2m375[0m |       const cctx = checkerCanvas.getContext('2d')!
+ [2m376[0m |       for (let cx = 0; cx < 16; cx++) for (let cy = 0; cy < 4; cy++) {
+ [2m377[0m |         cctx.fillStyle = (cx + cy) % 2 === 0 ? '#ffffff' : '#000000'
+ [2m378[0m |         cctx.fillRect(cx * 8, cy * 8, 8, 8)
+ [2m379[0m |       }
+ [2m380[0m |       const checkerTex = new THREE.CanvasTexture(checkerCanvas)
+ [2m381[0m |       const checker = new THREE.Mesh(
+ [2m382[0m |         new THREE.PlaneGeometry(ROAD_WIDTH, 1.0),
+ [2m383[0m |         new THREE.MeshBasicMaterial({ map: checkerTex })
+ [2m384[0m |       )
+ [2m385[0m |       checker.position.set(start.x, ROAD_Y + 0.005, start.z)
+ [2m386[0m |       checker.rotation.x = -Math.PI / 2
+ [2m387[0m |       checker.rotation.z = -Math.atan2(tan.x, tan.z)
+ [2m388[0m |       scene.add(checker)
+ [2m389[0m |     }
+ [2m390[0m | 
+ [2m391[0m |     // Armco barriers — short red/white painted walls just outside the curbs
+ [2m392[0m |     const armcoSegments = 60
+ [2m393[0m |     const armcoStep = (TRACK_SAMPLES + 1) / armcoSegments
+ [2m394[0m |     const armcoOffset = ROAD_WIDTH / 2 + CURB_W + 0.15
+ [2m395[0m |     const armcoMatA = new THREE.MeshStandardMaterial({ color: 0xd72020, roughness: 0.7, metalness: 0.1 })
+ [2m396[0m |     const armcoMatB = new THREE.MeshStandardMaterial({ color: 0xf2f2f2, roughness: 0.7, metalness: 0.1 })
+ [2m397[0m |     for (let s = 0; s < armcoSegments; s++) {
+ [2m398[0m |       const idx = Math.floor(s * armcoStep)
+ [2m399[0m |       const p = trackSamples[idx]
+ [2m400[0m |       const next = trackSamples[(idx + 1) % (TRACK_SAMPLES + 1)]
+ [2m401[0m |       const tan = next.clone().sub(p).normalize()
+ [2m402[0m |       const perp = new THREE.Vector3(-tan.z, 0, tan.x)
+ [2m403[0m |       const yaw = -Math.atan2(tan.x, tan.z)
+ [2m404[0m |       const matSeg = s % 2 === 0 ? armcoMatA : armcoMatB
+ [2m405[0m |       for (const sgn of [1, -1]) {
+ [2m406[0m |         const center = p.clone().add(perp.clone().multiplyScalar(sgn * armcoOffset))
+ [2m407[0m |         const post = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.55, 0.7), matSeg)
+ [2m408[0m |         post.position.set(center.x, 0.27, center.z)
+ [2m409[0m |         post.rotation.y = yaw
+ [2m410[0m |         post.castShadow = true
+ [2m411[0m |         scene.add(post)
+ [2m412[0m |       }
+ [2m413[0m |     }
+ [2m414[0m | 
+ [2m415[0m |     // ── Monaco-side scenery (no collision, dressing only) ─────────────────────
+ [2m416[0m |     // Harbor water on the south-east side (past Tabac/Rascasse)
+ [2m417[0m |     const harborGeo = new THREE.PlaneGeometry(28, 14)
+ [2m418[0m |     const harborMat = new THREE.MeshStandardMaterial({
+ [2m419[0m |       color: 0x3aa0c0,
+ [2m420[0m |       roughness: 0.18,
+ [2m421[0m |       metalness: 0.7,
+ [2m422[0m |       transparent: true,
+ [2m423[0m |       opacity: 0.92,
+ [2m424[0m |     })
+ [2m425[0m |     const harbor = new THREE.Mesh(harborGeo, harborMat)
+ [2m426[0m |     harbor.rotation.x = -Math.PI / 2
+ [2m427[0m |     harbor.position.set(88, 0.005, 16)
+ [2m428[0m |     scene.add(harbor)
+ [2m429[0m |     // Yacht silhouettes
+ [2m430[0m |     const yachtMat = new THREE.MeshStandardMaterial({ color: 0xeaeaea, roughness: 0.7 })
+ [2m431[0m |     const yachtDeckMat = new THREE.MeshStandardMaterial({ color: 0x1a1a1a, roughness: 0.6, metalness: 0.4 })
+ [2m432[0m |     ;[
+ [2m433[0m |       { x:  3, z: 14.5, len: 2.8 },
+ [2m434[0m |       { x:  9, z: 17,   len: 4.2 },
+ [2m435[0m |       { x: 14, z: 14,   len: 3.4 },
+ [2m436[0m |       { x: 18, z: 18,   len: 5.0 },
+ [2m437[0m |     ].forEach(({ x, z, len }) => {
+ [2m438[0m |       const hull = new THREE.Mesh(new THREE.BoxGeometry(len, 0.35, 1.0), yachtMat)
+ [2m439[0m |       hull.position.set(x, 0.18, z)
+ [2m440[0m |       hull.castShadow = true
+ [2m441[0m |       scene.add(hull)
+ [2m442[0m |       const cabin = new THREE.Mesh(new THREE.BoxGeometry(len * 0.5, 0.35, 0.7), yachtDeckMat)
+ [2m443[0m |       cabin.position.set(x, 0.55, z)
+ [2m444[0m |       scene.add(cabin)
+ [2m445[0m |     })
+ [2m446[0m | 
+ [2m447[0m |     // Hôtel de Paris / Casino-style block on the north-west (Casino Square side)
+ [2m448[0m |     const palaceMat = new THREE.MeshStandardMaterial({ color: 0xe6d3a0, roughness: 0.9 })
+ [2m449[0m |     const palaceRoofMat = new THREE.MeshStandardMaterial({ color: 0x2a3f3a, roughness: 0.5, metalness: 0.4 })
+ [2m450[0m |     const palaceWindowMat = new THREE.MeshBasicMaterial({ color: 0x6da0c0, transparent: true, opacity: 0.4 })
+ [2m451[0m |     const buildPalace = (cx: number, cz: number, w: number, d: number, h: number, rotY: number) => {
+ [2m452[0m |       const body = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), palaceMat)
+ [2m453[0m |       body.position.set(cx, h / 2, cz)
+ [2m454[0m |       body.rotation.y = rotY
+ [2m455[0m |       body.castShadow = true
+ [2m456[0m |       body.receiveShadow = true
+ [2m457[0m |       scene.add(body)
+ [2m458[0m |       const roof = new THREE.Mesh(new THREE.BoxGeometry(w + 0.3, 0.4, d + 0.3), palaceRoofMat)
+ [2m459[0m |       roof.position.set(cx, h + 0.2, cz)
+ [2m460[0m |       roof.rotation.y = rotY
+ [2m461[0m |       scene.add(roof)
+ [2m462[0m |       // Window strip (front face only — approximate by placing on +z side rotated)
+ [2m463[0m |       const windowStrip = new THREE.Mesh(
+ [2m464[0m |         new THREE.PlaneGeometry(w * 0.85, h * 0.45),
+ [2m465[0m |         palaceWindowMat
+ [2m466[0m |       )
+ [2m467[0m |       const fwd = new THREE.Vector3(0, 0, 1).applyAxisAngle(new THREE.Vector3(0, 1, 0), rotY)
+ [2m468[0m |       windowStrip.position.set(cx + fwd.x * (d / 2 + 0.01), h * 0.55, cz + fwd.z * (d / 2 + 0.01))
+ [2m469[0m |       windowStrip.rotation.y = rotY
+ [2m470[0m |       scene.add(windowStrip)
+ [2m471[0m |     }
+ [2m472[0m |     buildPalace(-12, -16, 8, 4, 5.5, 0.2)
+ [2m473[0m |     buildPalace(-18, -10, 5, 4, 4.8, Math.PI / 2 + 0.1)
+ [2m474[0m |     buildPalace(-3, -19, 7, 3.5, 5, -0.05)
+ [2m475[0m | 
+ [2m476[0m |     // Riviera apartment blocks lining the west side
+ [2m477[0m |     const apartMat = new THREE.MeshStandardMaterial({ color: 0xc99a6f, roughness: 0.95 })
+ [2m478[0m |     const apartWinMat = new THREE.MeshBasicMaterial({ color: 0x6da0c0, transparent: true, opacity: 0.3 })
+ [2m479[0m |     ;[
+ [2m480[0m |       { x: -16, z: -3, w: 3, d: 2.5, h: 6 },
+ [2m481[0m |       { x: -17, z:  2, w: 3, d: 2.5, h: 7 },
+ [2m482[0m |       { x: -16, z:  7, w: 3, d: 2.5, h: 5.5 },
+ [2m483[0m |       { x: -14, z: 11, w: 3, d: 2.5, h: 6.5 },
+ [2m484[0m |       { x: 14,  z: -16, w: 3.5, d: 2.5, h: 6 },
+ [2m485[0m |       { x: 18,  z: -12, w: 3, d: 2.5, h: 5 },
+ [2m486[0m |       { x: 19,  z: -5,  w: 3, d: 2.5, h: 6.5 },
+ [2m487[0m |       { x: 19,  z:  4,  w: 3, d: 2.5, h: 5.5 },
+ [2m488[0m |     ].forEach(b => {
+ [2m489[0m |       const block = new THREE.Mesh(new THREE.BoxGeometry(b.w, b.h, b.d), apartMat)
+ [2m490[0m |       block.position.set(b.x, b.h / 2, b.z)
+ [2m491[0m |       block.castShadow = true
+ [2m492[0m |       scene.add(block)
+ [2m493[0m |       const win = new THREE.Mesh(new THREE.PlaneGeometry(b.w * 0.8, b.h * 0.7), apartWinMat)
+ [2m494[0m |       win.position.set(b.x + (b.x > 0 ? -b.d / 2 - 0.01 : b.d / 2 + 0.01), b.h * 0.55, b.z)
+ [2m495[0m |       win.rotation.y = b.x > 0 ? -Math.PI / 2 : Math.PI / 2
+ [2m496[0m |       scene.add(win)
+ [2m497[0m |     })
+ [2m498[0m | 
+ [2m499[0m |     // Track-side palm trees (thin trunk + spherical canopy)
+ [2m500[0m |     const trunkMat = new THREE.MeshStandardMaterial({ color: 0x4a3a1f, roughness: 0.95 })
+ [2m501[0m |     const palmFrondMat = new THREE.MeshStandardMaterial({ color: 0x2d6e3a, roughness: 0.7 })
+ [2m502[0m |     ;[
+ [2m503[0m |       [11, -1], [-11, -6], [-2, 9], [3, 9], [11, 4], [-2, -11], [-9, 2],
+ [2m504[0m |     ].forEach(([px, pz]) => {
+ [2m505[0m |       const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.12, 1.6, 6), trunkMat)
+ [2m506[0m |       trunk.position.set(px, 0.8, pz)
+ [2m507[0m |       trunk.castShadow = true
+ [2m508[0m |       scene.add(trunk)
+ [2m509[0m |       const canopy = new THREE.Mesh(new THREE.SphereGeometry(0.55, 8, 6), palmFrondMat)
+ [2m510[0m |       canopy.position.set(px, 1.7, pz)
+ [2m511[0m |       canopy.castShadow = true
+ [2m512[0m |       scene.add(canopy)
+ [2m513[0m |     })
+ [2m514[0m | 
+ [2m515[0m |     // Scene-bound clamp distance (replaces ARENA wall)
+ [2m516[0m |     const BOUND = 22
+ [2m517[0m | 
+ [2m518[0m |     // ── Portfolio blocks ──────────────────────────────────────────────────────
+ [2m519[0m |     const cubes: THREE.Mesh[] = []
+ [2m520[0m | 
+ [2m521[0m |     PORTFOLIO_BLOCKS.forEach((block) => {
+ [2m522[0m |       const geo = new THREE.BoxGeometry(2, 2, 2)
+ [2m523[0m |       const mat = new THREE.MeshStandardMaterial({
+ [2m524[0m |         color: block.color,
+ [2m525[0m |         emissive: block.emissive,
+ [2m526[0m |         emissiveIntensity: 0.4,
+ [2m527[0m |         roughness: 0.25,
+ [2m528[0m |         metalness: 0.35,
+ [2m529[0m |       })
+ [2m530[0m |       const mesh = new THREE.Mesh(geo, mat)
+ [2m531[0m |       mesh.position.set(block.position.x, 1, block.position.z)
+ [2m532[0m |       mesh.castShadow = true
+ [2m533[0m |       mesh.receiveShadow = true
+ [2m534[0m |       mesh.userData = { id: block.id, hit: false, block }
+ [2m535[0m |       scene.add(mesh)
+ [2m536[0m |       cubes.push(mesh)
+ [2m537[0m | 
+ [2m538[0m |       // Glow underneath
+ [2m539[0m |       const glowLight = new THREE.PointLight(block.color, 0.6, 5)
+ [2m540[0m |       glowLight.position.set(block.position.x, 0.3, block.position.z)
+ [2m541[0m |       scene.add(glowLight)
+ [2m542[0m | 
+ [2m543[0m |       // Floating label
+ [2m544[0m |       const labelCanvas = document.createElement('canvas')
+ [2m545[0m |       labelCanvas.width = 256; labelCanvas.height = 80
+ [2m546[0m |       const ctx = labelCanvas.getContext('2d')!
+ [2m547[0m |       ctx.clearRect(0, 0, 256, 80)
+ [2m548[0m |       ctx.font = 'bold 32px system-ui, sans-serif'
+ [2m549[0m |       ctx.textAlign = 'center'
+ [2m550[0m |       ctx.fillStyle = '#ffffff'
+ [2m551[0m |       ctx.shadowColor = `#${block.color.toString(16).padStart(6, '0')}`
+ [2m552[0m |       ctx.shadowBlur = 12
+ [2m553[0m |       ctx.fillText(block.label, 128, 52)
+ [2m554[0m |       const labelTex = new THREE.CanvasTexture(labelCanvas)
+ [2m555[0m |       const label = new THREE.Mesh(
+ [2m556[0m |         new THREE.PlaneGeometry(2.6, 0.8),
+ [2m557[0m |         new THREE.MeshBasicMaterial({ map: labelTex, transparent: true, depthWrite: false, side: THREE.DoubleSide })
+ [2m558[0m |       )
+ [2m559[0m |       label.position.set(block.position.x, 2.8, block.position.z)
+ [2m560[0m |       scene.add(label)
+ [2m561[0m |       mesh.userData.label = label
+ [2m562[0m |     })
+ [2m563[0m |     cubesRef.current = cubes
+ [2m564[0m | 
+ [2m565[0m |     // ── Car ───────────────────────────────────────────────────────────────────
+ [2m566[0m |     const carGroup = new THREE.Group()
+ [2m567[0m |     scene.add(carGroup)
+ [2m568[0m |     carGroupRef.current = carGroup
+ [2m569[0m | 
+ [2m570[0m |     // ── GTR────────────────────────────────────────────────────────────────
+ [2m571[0m |     
+ [2m572[0m | const gltfLoader = new GLTFLoader()
+     : [33;1m      ^^^^^|^^^^[0m
+     :            [33;1m`-- [33;1m`gltfLoader` redefined here[0m[0m
+ [2m573[0m | gltfLoader.load('/nissan_skyline_gtr_r35.glb', (gltf) => {
+ [2m574[0m |   const model = gltf.scene
+ [2m575[0m |   model.traverse(o => { if ((o as THREE.Mesh).isMesh) { o.castShadow = true; o.receiveShadow = true } })
+     `----
+
+Import trace for requested module:
+./components/World.tsx
+./app/page.tsx
+ GET / 500 in 5ms
+ ✓ Compiled in 270ms (697 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/d4f28c2e16cc2703.webpack.hot-update.json 404 in 265ms
+ GET / 200 in 36ms
+ ✓ Compiled in 196ms (711 modules)
+ ✓ Compiled in 161ms (711 modules)
+ GET / 200 in 31ms
+ GET / 200 in 19ms
+ ✓ Compiled in 356ms (708 modules)
+ ✓ Compiled in 142ms (708 modules)
+ ✓ Compiled in 215ms (708 modules)
+ ✓ Compiled in 161ms (708 modules)
+ GET / 200 in 47ms
+ ✓ Compiled in 306ms (708 modules)
+ ✓ Compiled in 172ms (708 modules)
+ ✓ Compiled in 173ms (708 modules)
+ ✓ Compiled in 133ms (708 modules)
+ ✓ Compiled in 212ms (708 modules)
+ ✓ Compiled in 114ms (708 modules)
+ ✓ Compiled in 131ms (708 modules)
+ ✓ Compiled in 114ms (708 modules)
+ ✓ Compiled in 151ms (708 modules)
+ ✓ Compiled in 105ms (708 modules)
+ ✓ Compiled in 115ms (708 modules)
+ ✓ Compiled in 117ms (708 modules)
+ ✓ Compiled in 110ms (708 modules)
+ GET / 200 in 47ms
+ ✓ Compiled in 237ms (708 modules)
+ ✓ Compiled in 132ms (708 modules)
+ ✓ Compiled in 119ms (708 modules)
+ ✓ Compiled in 132ms (708 modules)
+ ⨯ ./components/World.tsx
+Error: 
+  [31mx[0m Expression expected
+     ,-[[36;1;4m/Users/devangchiniya/Documents/GitHub/User-Deva.github.io/portfolio/components/World.tsx[0m:854:1]
+ [2m854[0m |       renderer.dispose()
+ [2m855[0m |       if (mount.contains(renderer.domElement)) mount.removeChild(renderer.domElement)
+ [2m856[0m |     }
+ [2m857[0m |   }, [started])
+     : [31;1m   ^[0m
+ [2m858[0m | 
+ [2m859[0m |   // ── Loading screen ──────────────────────────────────────────────────────────
+ [2m860[0m |   if (!started) {
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/World.tsx
+./app/page.tsx
+ GET / 500 in 3ms
+ ✓ Compiled /_not-found in 232ms (697 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/d4f28c2e16cc2703.webpack.hot-update.json 404 in 253ms
+ GET / 200 in 25ms
+ ✓ Compiled in 149ms (711 modules)
+ GET / 200 in 27ms
+ GET / 200 in 41ms
+ GET / 200 in 21ms
+ ✓ Compiled in 314ms (708 modules)
+ ✓ Compiled in 132ms (708 modules)
+ ✓ Compiled in 133ms (708 modules)
+ ✓ Compiled in 113ms (708 modules)
+ GET / 200 in 55ms
+ GET / 200 in 20ms
+ ✓ Compiled in 269ms (708 modules)
+ ✓ Compiled in 181ms (708 modules)
+ ✓ Compiled in 137ms (708 modules)
+ GET / 200 in 45ms
+ ✓ Compiled in 233ms (708 modules)
+ GET / 200 in 37ms
+ ✓ Compiled in 128ms (708 modules)
+ GET / 200 in 36ms
+ GET / 200 in 33ms
+ GET / 200 in 30ms
+ ✓ Compiled in 406ms (708 modules)
+ GET / 200 in 21ms
+ GET / 200 in 26ms
+ ✓ Compiled in 215ms (708 modules)
+ ✓ Compiled in 97ms (708 modules)
+ ✓ Compiled in 109ms (708 modules)
+ GET / 200 in 42ms
+ ✓ Compiled in 217ms (708 modules)
+ GET / 200 in 24ms
+ GET / 200 in 35ms
+ ✓ Compiled in 203ms (708 modules)
+ GET / 200 in 36ms
+ ✓ Compiled in 205ms (708 modules)
+ GET / 200 in 42ms
+ ✓ Compiled in 151ms (708 modules)
+ ✓ Compiled in 133ms (708 modules)
+ GET / 200 in 39ms
+ ✓ Compiled in 150ms (708 modules)
+ GET / 200 in 26ms
+ ✓ Compiled in 170ms (708 modules)
+ ✓ Compiled in 247ms (708 modules)
+ ✓ Compiled in 130ms (708 modules)
+ ✓ Compiled in 114ms (708 modules)
+ GET / 200 in 46ms
+ GET / 200 in 21ms
+ ✓ Compiled in 179ms (708 modules)
+ GET / 200 in 38ms
+ ✓ Compiled in 147ms (708 modules)
+ GET / 200 in 36ms
+ ✓ Compiled in 127ms (708 modules)
+ GET / 200 in 33ms
