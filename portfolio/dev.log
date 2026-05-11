@@ -710,3 +710,55 @@ Import trace for requested module:
  GET / 200 in 36ms
  ✓ Compiled in 127ms (708 modules)
  GET / 200 in 33ms
+   Reload env: .env.local
+ ✓ Compiled in 169ms (694 modules)
+ ✓ Compiled in 378ms (714 modules)
+ ✓ Compiled in 258ms (714 modules)
+ ✓ Compiled in 126ms (714 modules)
+ ✓ Compiled in 133ms (714 modules)
+ ✓ Compiled in 159ms (714 modules)
+ GET / 200 in 91ms
+ ✓ Compiled in 390ms (700 modules)
+ ✓ Compiled in 236ms (714 modules)
+ ✓ Compiled in 196ms (714 modules)
+ ✓ Compiled in 206ms (714 modules)
+ GET / 200 in 62ms
+ ✓ Compiled in 246ms (714 modules)
+ GET / 200 in 64ms
+ ✓ Compiled in 153ms (714 modules)
+ GET / 200 in 55ms
+ ✓ Compiled in 166ms (714 modules)
+ ✓ Compiled in 178ms (714 modules)
+ GET / 200 in 62ms
+ ✓ Compiled in 295ms (700 modules)
+ ✓ Compiled in 73ms (700 modules)
+ ✓ Compiled in 99ms (700 modules)
+ ✓ Compiled in 217ms (714 modules)
+ ✓ Compiled in 140ms (714 modules)
+ GET / 200 in 77ms
+ ✓ Compiled in 224ms (714 modules)
+ GET / 200 in 60ms
+ ✓ Compiled in 249ms (714 modules)
+ ✓ Compiled in 135ms (714 modules)
+ ✓ Compiled in 130ms (714 modules)
+ ✓ Compiled in 195ms (714 modules)
+ ✓ Compiled in 175ms (714 modules)
+ ✓ Compiled in 132ms (714 modules)
+ ✓ Compiled in 168ms (700 modules)
+ ✓ Compiled in 122ms (714 modules)
+ GET / 200 in 59ms
+ ✓ Compiled in 185ms (700 modules)
+ ✓ Compiled in 95ms (700 modules)
+ ✓ Compiled in 82ms (700 modules)
+ ✓ Compiled in 79ms (700 modules)
+ GET / 200 in 77ms
+ GET / 200 in 37ms
+ ✓ Compiled in 211ms (700 modules)
+ GET / 200 in 81ms
+ ✓ Compiled in 394ms (714 modules)
+ GET / 200 in 59ms
+ ✓ Compiled in 192ms (714 modules)
+ ✓ Compiled in 194ms (714 modules)
+ GET / 200 in 64ms
+ ✓ Compiled in 230ms (714 modules)
+ GET / 200 in 52ms
