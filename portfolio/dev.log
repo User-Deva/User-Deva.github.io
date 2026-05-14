@@ -762,3 +762,105 @@ Import trace for requested module:
  GET / 200 in 64ms
  ✓ Compiled in 230ms (714 modules)
  GET / 200 in 52ms
+ GET / 200 in 250ms
+ ✓ Compiled in 546ms (700 modules)
+ ✓ Compiled in 115ms (700 modules)
+ ✓ Compiled in 189ms (714 modules)
+ ✓ Compiled in 256ms (714 modules)
+ ✓ Compiled in 244ms (714 modules)
+ ✓ Compiled in 227ms (714 modules)
+ ✓ Compiled in 117ms (714 modules)
+ ✓ Compiled in 142ms (714 modules)
+ ✓ Compiled in 174ms (714 modules)
+ ✓ Compiled in 214ms (714 modules)
+ ✓ Compiled in 129ms (714 modules)
+ ✓ Compiled in 165ms (714 modules)
+ ✓ Compiled in 173ms (714 modules)
+ ✓ Compiled in 159ms (714 modules)
+ ✓ Compiled in 218ms (714 modules)
+ ✓ Compiled in 187ms (714 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 56ms
+ GET / 200 in 41ms
+ ✓ Compiled in 539ms (714 modules)
+ ✓ Compiled in 168ms (714 modules)
+ ✓ Compiled in 155ms (714 modules)
+ ✓ Compiled in 169ms (714 modules)
+ ✓ Compiled in 140ms (714 modules)
+ ✓ Compiled in 154ms (714 modules)
+ ✓ Compiled in 127ms (714 modules)
+ ✓ Compiled in 118ms (714 modules)
+ ✓ Compiled in 117ms (714 modules)
+ ✓ Compiled in 112ms (714 modules)
+ GET / 200 in 70ms
+ GET / 200 in 72ms
+ GET / 200 in 40ms
+ GET / 200 in 44ms
+ GET / 200 in 41ms
+ GET / 200 in 37ms
+ ✓ Compiled /_not-found in 285ms (703 modules)
+ GET /sea.glb 404 in 407ms
+ GET / 200 in 31ms
+ GET /sea.glb 404 in 34ms
+ GET / 200 in 32ms
+ GET /sea.glb 404 in 40ms
+ GET / 200 in 49ms
+ GET /sea.glb 404 in 43ms
+ GET / 200 in 27ms
+ GET /sea.glb 404 in 20ms
+ GET / 200 in 25ms
+ GET /sea.glb 404 in 32ms
+ ✓ Compiled in 207ms (700 modules)
+ ✓ Compiled in 341ms (702 modules)
+ GET / 200 in 121ms
+ ✓ Compiled /_not-found in 105ms (705 modules)
+ GET /sea.glb 404 in 144ms
+ GET / 200 in 29ms
+ GET /sea.glb 404 in 15ms
+ ✓ Compiled in 318ms (716 modules)
+ ✓ Compiled in 152ms (716 modules)
+ ✓ Compiled in 154ms (716 modules)
+ ✓ Compiled in 133ms (716 modules)
+ ✓ Compiled in 137ms (716 modules)
+ GET / 200 in 71ms
+ ✓ Compiled in 190ms (716 modules)
+ ✓ Compiled in 127ms (716 modules)
+ ✓ Compiled in 135ms (716 modules)
+ ✓ Compiled in 160ms (716 modules)
+ ✓ Compiled in 126ms (716 modules)
+ ✓ Compiled in 167ms (716 modules)
+ GET / 200 in 72ms
+ GET / 200 in 37ms
+ ✓ Compiled in 215ms (702 modules)
+ GET / 200 in 62ms
+ ✓ Compiled in 181ms (702 modules)
+ GET / 200 in 43ms
+ ✓ Compiled in 123ms (702 modules)
+ GET / 200 in 53ms
+ ✓ Compiled in 115ms (702 modules)
+ GET / 200 in 40ms
+ ✓ Compiled in 193ms (702 modules)
+ GET / 200 in 44ms
+ ✓ Compiled in 111ms (702 modules)
+ GET / 200 in 73ms
+ ✓ Compiled in 309ms (716 modules)
+ GET / 200 in 30ms
+ ✓ Compiled in 214ms (716 modules)
+ GET / 200 in 33ms
+ ✓ Compiled in 179ms (716 modules)
+ GET / 200 in 37ms
+ ✓ Compiled in 143ms (716 modules)
+ GET / 200 in 38ms
+ ✓ Compiled in 166ms (716 modules)
+ GET / 200 in 30ms
+ ✓ Compiled in 185ms (716 modules)
+ GET / 200 in 31ms
+ GET / 200 in 21ms
+ ✓ Compiled in 350ms (716 modules)
+ GET / 200 in 39ms
+ GET / 200 in 24ms
+ GET / 200 in 28ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 511ms (705 modules)
+ GET /showcase 404 in 587ms
+ GET / 200 in 97ms

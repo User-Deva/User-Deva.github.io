@@ -27,6 +27,9 @@ export interface CityClassification {
   waterMeshes: THREE.Mesh[]
   helipadMeshes: THREE.Mesh[]
   unknownMeshes: THREE.Mesh[]
+  // Meshes flagged with a non-empty `statue` custom property in Blender.
+  // World position of each is captured so they can act as info-box anchors.
+  statues: Array<{ mesh: THREE.Mesh; worldPos: THREE.Vector3; name: string }>
   bounds: THREE.Box3
   groundY: number
   // For HUD / debug — which path classified each mesh
@@ -77,10 +80,30 @@ export function classifyCity(root: THREE.Object3D, options: ClassifyOptions = {}
     waterMeshes: [],
     helipadMeshes: [],
     unknownMeshes: [],
+    statues: [],
     bounds,
     groundY,
     reasons,
   }
+
+  // Scan for `statue = <anything>` custom-property nodes anywhere in the tree.
+  // These are info-box anchors that get their world position captured.
+  root.traverse(o => {
+    const ud = o.userData ?? {}
+    const raw = ud.statue ?? ''
+    if (raw !== undefined && raw !== null && String(raw).trim() !== '') {
+      const box = new THREE.Box3().setFromObject(o)
+      const center = new THREE.Vector3()
+      box.getCenter(center)
+      if (Number.isFinite(center.x) && Number.isFinite(center.y) && Number.isFinite(center.z)) {
+        out.statues.push({
+          mesh: o as THREE.Mesh,
+          worldPos: center,
+          name: o.name ?? 'statue',
+        })
+      }
+    }
+  })
 
   const tmpBox = new THREE.Box3()
   const dump: Array<{ name: string; kind: SurfaceKind; reason: string; minY: number; maxY: number; h: number; udSurface: string }> = []

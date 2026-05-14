@@ -23,14 +23,15 @@ export interface CarConfig {
 }
 
 export const DEFAULT_CAR_CONFIG: CarConfig = {
-  maxSpeed: 0.50,
-  reverseSpeedScale: 0.55,
-  accel: 0.10,
-  friction: 0.95,
-  turnFriction: 0.65,
-  turnAmount: 0.048,
-  offRoadFriction: 0.55,
-  edgePushBack: 0.4,
+  maxSpeed: 0.56,
+  reverseSpeedScale: 0.4,
+  accel: 0.022,
+  friction: 0.985,
+  turnFriction: 0.82,
+  turnAmount: 0.040,
+  offRoadFriction: 0.90,
+  edgePushBack: 0.12,
+
 }
 
 export function createCarState(spawn: { x: number; y?: number; z: number; angle?: number }): CarState {
@@ -42,7 +43,7 @@ export function createCarState(spawn: { x: number; y?: number; z: number; angle?
     speed: 0,
     turnSpeed: 0,
     surfaceY: spawn.y ?? 0,
-    surfaceNormal: new THREE.Vector3(0, 1, 0),
+    surfaceNormal: new THREE.Vector3(1, 1, 0),
     onRoad: true,
   }
 }
@@ -137,8 +138,23 @@ export function updateCar(
   car.speed *= Math.pow(config.friction, dt)
 
   // Steering — minimum factor keeps the wheel responsive at low speeds
-  const speedFactor = Math.max(0.5, Math.abs(car.speed) / config.maxSpeed)
-  const turnAmt = config.turnAmount * speedFactor * dt
+  // const speedFactor = Math.max(0.5, Math.abs(car.speed) / config.maxSpeed)
+  // const turnAmt = config.turnAmount * speedFactor * dt
+  // Steering — minimum factor keeps the wheel responsive at low speeds
+  // Realistic steering:
+// tighter at low speed, wider at high speed
+  const normalizedSpeed = Math.min(
+    Math.abs(car.speed) / config.maxSpeed,
+    1
+)
+
+  const steeringScale =
+    1.0 - normalizedSpeed * 0.65
+
+  const turnAmt =
+    config.turnAmount *
+    steeringScale *
+    dt
   if (lft) car.turnSpeed += turnAmt
   if (rgt) car.turnSpeed -= turnAmt
   car.turnSpeed *= Math.pow(config.turnFriction, dt)

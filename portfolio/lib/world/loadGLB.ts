@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js'
 
 export interface LoadOpts {
   scale?: number
@@ -17,7 +18,10 @@ export interface LoadProgress {
 
 export type ProgressHandler = (p: LoadProgress) => void
 
+// MeshoptDecoder is required for files compressed with EXT_meshopt_compression.
+// citya.glb is built that way; this also passes through uncompressed files unharmed.
 const sharedLoader = new GLTFLoader()
+sharedLoader.setMeshoptDecoder(MeshoptDecoder)
 
 export function loadGLB(
   url: string,
